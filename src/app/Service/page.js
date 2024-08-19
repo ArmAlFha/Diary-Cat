@@ -1,16 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from "next/link";
-export default function Home() {
+export default function About() {
   return (
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-12 text-center p-0">
+        <div className="col-md-12 text-center p-0">
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
               <div className="container-fluid">
-                <img src="https://us-fbcloud.net/wb/data/1518/1518672-img.wduk3o.w0bw.jpg" className="img me-3" width={60} alt="..." />
+              <img src="https://us-fbcloud.net/wb/data/1518/1518672-img.wduk3o.w0bw.jpg" className="img me-3" width={60} alt="..." />
                 <a className="navbar-brand" href="#">Diary Cat</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon" />
@@ -18,10 +16,10 @@ export default function Home() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                      <a className="nav-link active" aria-current="page" href="/">Home</a>
+                      <a className="nav-link active" href="/">Home</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="/about">About</a>
+                      <a className="nav-link" aria-current="page" href="/about">About</a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="/Service">Service</a>
@@ -34,7 +32,7 @@ export default function Home() {
                     <Link href="/singup" className="btn btn-outline-success me-2" type="submit">Sign Up</Link>
                     <Link href="/singin" className="btn btn-outline-success me-2" type="submit">Sign in</Link>
                   </form>
-                </div>
+                  </div>
               </div>
             </nav>
           </div>
@@ -45,7 +43,7 @@ export default function Home() {
             <div id="carouselExample" className="carousel slide">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src="https://www.khaosod.co.th/wpapp/uploads/2021/02/c3.jpg" className="d-block w-100" alt="..." />
+                  <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?cs=srgb&dl=pexels-ihsanaditya-1056251.jpg&fm=jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
                   <img src="https://inwfile.com/s-gf/omq9k0.jpg" className="d-block w-100" alt="..." />
@@ -71,9 +69,9 @@ export default function Home() {
           <div className="col-sm-4 mb-3 mb-sm-0">
             <div className="card">
               <div className="card-body">
-                <img src="https://thumb.photo-ac.com/8f/8fdc0925eeed04b5b4e8b4ce0a2355f0_t.jpeg" className="img-thumbnail" alt="..." />
+                <img src="https://cdn.pixabay.com/photo/2024/03/08/09/47/ai-generated-8620359_640.png" className="img-thumbnail" alt="..." />
                 <h5 className="card-title">Cat</h5>
-                <p className="card-text">Name Cat: Owen</p>
+                <p className="card-text">Name Cat: Winter</p>
                 <a href="#" className="btn btn-primary">Go Home</a>
               </div>
             </div>
@@ -81,9 +79,9 @@ export default function Home() {
           <div className="col-sm-4">
             <div className="card">
               <div className="card-body">
-                <img src="https://thumb.photo-ac.com/a7/a73cc78b0b8beb6e44dd20c81a6c8410_t.jpeg" className="img-thumbnail" alt="..." />
+                <img src="https://media.istockphoto.com/id/1471739324/photo/portrait-of-stray-van-cat.jpg?s=612x612&w=0&k=20&c=7FiG1SUQvdhbeb2upLVmYyFZhUkFSWH3LCARDlQDeKM=" className="img-thumbnail" alt="..." />
                 <h5 className="card-title">Cat</h5>
-                <p className="card-text">Name Cat: Forsaken</p>
+                <p className="card-text">Name Cat: Near</p>
                 <a href="#" className="btn btn-primary">Go Home</a>
               </div>
             </div>
@@ -91,9 +89,9 @@ export default function Home() {
           <div className="col-sm-4 mb-3 mb-sm-0">
             <div className="card">
               <div className="card-body">
-                <img src="https://img.pikbest.com/ai/illus_our/20230418/6bc6703165c9c4326000184b1afd77ea.jpg!sw800" className="img-thumbnail" alt="..." />
+                <img src="https://hips.hearstapps.com/hmg-prod/images/cute-photos-of-cats-in-bed-1593203107.jpg" className="img-thumbnail" alt="..." />
                 <h5 className="card-title">Cat</h5>
-                <p className="card-text">Name Cat: Alpha</p>
+                <p className="card-text">Name Cat: Mana</p>
                 <a href="#" className="btn btn-primary">Go Home</a>
               </div>
             </div>
